@@ -1,0 +1,163 @@
+selector .elementor-tab-content > div{
+    /*    display: flex;
+        flex-direction: column;
+        justify-content: space-between;*/
+    }
+    selector .elementor-tab-content.elementor-active{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 2em 0;
+        background-color: #fff;
+    }
+    selector .table{
+        max-width: 412px;
+        margin: 0 auto;
+    }
+    selector .elementor-tab-content > div{
+        margin: 0 auto;
+        max-width: 275px;
+        width: 275px;
+        overflow: auto;
+    }
+    selector .elementor-tab-title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    selector .elementor-tabs-wrapper, selector .elementor-tab-title.elementor-active {
+        background-color: var(--e-global-color-e48f337 ) !important;
+        border: none;
+        border-radius: 12px 12px 0 0;
+    }
+    selector .elementor-tabs-content-wrapper {
+        border-radius: 0 0 12px 12px;
+        background-color: var(--e-global-color-primary );
+    }
+    
+    
+        
+    selector .elementor-tab-content > div, selector i, selector .row-2{
+        padding-right: 2.5em;
+        padding-left: 2.5em;
+    }
+    
+    selector .IvyEpicB16{
+        font-family: var( --e-global-typography-2a69a62-font-family ), Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        line-height: 1.3em;
+    }
+    selector .text-center{
+        margin-bottom: 3em;
+    }
+    selector i, selector .row-2, selector .elementor-tab-content > div.row-2{
+        grid-column: 1 / 4;
+        text-align: left;
+        width: 100%;
+        max-width: unset;
+    }
+    selector i:first-child, selector .row-2:first-child{
+        padding-top: 2em;
+    }
+    
+    selector table thead tr th, selector table tbody tr td{
+        border: none;
+        background: transparent;
+        padding: 10px 5px;
+        text-align: center;
+    }
+    
+    selector .table{
+        overflow-x: scroll;
+        max-width: 190px;
+        margin: 0 auto;
+        width: 190px;
+    }
+    
+    
+    /* width */
+    ::-webkit-scrollbar {
+      height: 5px;
+    }
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background-color: var( --e-global-color-cfbeb85 );
+    }
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background-color: var(--e-global-color-e48f337 );
+    }
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+    
+    
+    @media (min-width: 500px){
+    selector .elementor-tab-content > div{
+        max-width: 350px;
+        width: 350px;
+    }
+    selector .table{
+        overflow-x: auto;
+        max-width: 265px;
+        width: 265px;
+    }
+    }/*save for 500*/
+    
+    @media (min-width:768px){
+    selector .elementor-tab-title {
+        text-align: center;
+    }
+    selector .elementor-tab-content.elementor-active{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    selector .elementor-tab-content > div:not(:last-child){
+        border-right: 1px solid #312d41;
+    }
+    selector .elementor-tab-content > div{
+        max-width: 370px;
+        width: 100%;
+        overflow: hidden;
+    }
+    selector .table{
+        overflow-x: scroll;
+        max-width: 144px;
+        width: 144px;
+    }
+    selector .elementor-widget-tabs .elementor-tabs {
+        max-width: 1116px;
+        margin: 0 auto;
+    }
+    }/*save 768*/
+    
+    @media (min-width:900px){
+    selector .table {
+        width: 175px;
+        max-width: 175px;
+    }
+    }/*save for 900*/
+    @media (min-width:1000px){
+    selector .table {
+        width: 224px;
+        max-width: 224px;
+    }
+    }/*save for 1000*/
+    
+    @media (min-width:1200px){
+    selector .table {
+        width: 285px;
+        max-width: 285px;
+        overflow: hidden;
+    }
+    }/*save for 1200*/
+    
+    
+    
+    
+    
+    
